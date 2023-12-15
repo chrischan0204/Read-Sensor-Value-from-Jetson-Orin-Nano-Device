@@ -1,0 +1,3 @@
+sensor: https://esphome.io/components/sensor/ld2410.html
+
+https://www.dwservice.net/tl1m862a4lwg7j6n1m1nt841tl445ne51akg0180.dlk
