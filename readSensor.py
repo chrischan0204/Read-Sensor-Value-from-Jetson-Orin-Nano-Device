@@ -16,8 +16,8 @@ while True:
     byte2 = readValue(1)
     byte3 = readValue(2)
     byte4 = readValue(3)
-    current = (byte1 & 0x0F) << 8 + byte2
+    current = ((byte1 & 0x0F) << 8) + byte2
     print("Current Value",current)
-    position = (byte3 & 0x0F) << 8 + byte4
+    position = ((byte3 & 0x0F) << 8) + byte4
     print("Position Value", position)
     time.sleep(1)
